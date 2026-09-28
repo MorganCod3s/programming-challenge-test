@@ -35,8 +35,9 @@ public class Solution {
 
     public double divide (int a, int b){
         // replace 0.0  with your implementation
-        double p = a * b;
-        return p;
+        double p = a;
+        double r = p/ b;
+        return r;
     }
 
     /**
@@ -69,7 +70,7 @@ public class Solution {
         //this main method is for manually debugging
         Solution solution = new Solution();
                         //change "solution" method to any of the methods you would like to test
-        System.out.println(solution.add(1, 2));
+        System.out.println(solution.divide(1, 2));
 
     }
 }
